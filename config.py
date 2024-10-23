@@ -47,5 +47,4 @@ DUMP_INTERVAL = 60*60*4 #video interval in seconds
 QUE_MAXSIZE = 16
 ADD_SOUND = True #True
 
-SRC_DIR = '/ffmpeg/superres/some_stuff/test'
-REPO_DIR = '/ffmpeg/superres/some_stuff/res' 
+REPO_DIR = '/superres' 
