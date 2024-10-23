@@ -239,8 +239,8 @@ def add_sound(src_vid_path, up_vid_path, dst_vid_path):
     
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--source', help='cloud folder video path')
-    parser.add_argument('--out_dir', default=None, help='folder to store upscaled video')
+    parser.add_argument('-s', '--source', help='cloud folder video path')
+    parser.add_argument('-o', '--out_dir', default=None, help='folder to store upscaled video')
     
     args = parser.parse_args()
     
