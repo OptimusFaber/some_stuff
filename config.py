@@ -26,7 +26,7 @@ COLOR_CORR = ((0, 1),
 PROVIDERS = ['TensorrtExecutionProvider']
 #PROVIDERS = ['CUDAExecutionProvider']
 
-ONNX_MODEL = '/ffmpeg/superres/some_stuff/ghq-v6-gaia-fp16-anysize-2x-batch.onnx'
+ONNX_MODEL = '/superres/some_stuff/ghq-v6-gaia-fp16-anysize-2x-batch.onnx'
 
 # ffmpeg 
 MBITRATE = 50
